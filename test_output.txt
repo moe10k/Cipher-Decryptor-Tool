@@ -1,0 +1,132 @@
+============================================================
+Keyed Alphabet generated from: ABANDON
+Alphabet: ABNDOCEFGHIJKLMPQRSTUVWXYZ
+============================================================
+Key: ABANDON
+Decrypted: Ro qgkr hhw vja jjsdn ceboug irk fsi fh mevs df sm ueo dgw. S cxcl kf ciqx poae tleku zu, aeayf zu, loo gbvk I pfx.
+--------------------------------------------------
+Key: CRYPTIC
+Decrypted: Km svwj eoe xyi cgllo sqvbps kow bpc rj bqpp yr ub oab ysy. C prng wh suiu imnt dfdfo bf, iaxtr bf, xyb djxz U hos.
+--------------------------------------------------
+Key: GHOST
+Decrypted: Hw kswl ncc ncu jvzwt drkyjc saf nqs pb fcfb vz my onx zrd. K zxpu cy dvbr ebgp mgoun rl, zshqz vo, xax oine O pro.
+--------------------------------------------------
+Key: PHOENIX
+Decrypted: Nw kolj mum rfb cqdvy bfvhca ell bxv zc ifpx mz mi vah mas. M eriy od bjin awwn ufjxk vq, bachz vq, myh ttrg J hkg.
+--------------------------------------------------
+Key: SECRET
+Decrypted: Zz jthn tds ofi xfllw mrzbdd rbh edo pr iogm iq kj eol jdr. D ngpf gq bunt imup ojdvp eo, xcjsp fq, jra piph W lqc.
+--------------------------------------------------
+Key: ZOMBIE
+Decrypted: Sb nhcp kch udx qhods bibstz ouj xta ni kvyi xh mn waa ocg. T yvgh ze xfvv boqn xlujj tx, zwbmn as, nfw ndra K hdy.
+--------------------------------------------------
+============================================================
+Keyed Alphabet generated from: CRYPTIC
+Alphabet: CRYPTIABDEFGHJKLMNOQSUVWXZ
+============================================================
+Key: ABANDON
+Decrypted: Uq jkut van mxc gxkgg qtdoli zju utz ta ytbt yt ky mjo yin. T plqe dt qbpd wqcs lesdl qa, cjcvt qa, gqo ifmz B huo.
+--------------------------------------------------
+Key: CRYPTIC
+Decrypted: Rz nyzn jhw sht xlsnl bdueug prz dui ff mdsu df om sce dgu. O byfl kd bgmz pztd qvgku ws, tcnyf ws, lae gmsj G zhx.
+--------------------------------------------------
+Key: GHOST
+Decrypted: Mk rgzg rst otv gumbi oovxes gco rpg br bsin wz yz ssw moq. F zlmg tx ounk ndhb hlqso kg, mgjnz bp, lcw qwoi P hos.
+--------------------------------------------------
+Key: PHOENIX
+Decrypted: Xk rvhn leh tan xnnaz ruugoc juh dwy zs fusw iz yf bcg ici. H syhh po rxmr ckky avjgf bk, ncqzz bk, yag ditb X zku.
+--------------------------------------------------
+Key: SECRET
+Decrypted: Bn qtso qpx uat easnd aonesp rfs jsv bo fhxh tn gq wvi kpw. S ypma le rgrm pzwb pogjj up, zimqb ik, qfc bwjm K udt.
+--------------------------------------------------
+Key: ZOMBIE
+Decrypted: Yd pxxj ksd lfz twtgh rjdqkb vig wkc yj rvom zh yp ncc esb. K axgw zp iavb jqry xeubn mx, mlfwy ci, ptt yotc D zpz.
+--------------------------------------------------
+============================================================
+Keyed Alphabet generated from: GHOST
+Alphabet: GHOSTABCDEFIJKLMNPQRUVWXYZ
+============================================================
+Key: ABANDON
+Decrypted: Lh kver wwp nyg myywi urarmv ble ftb uw orxt su yo mer svp. T qtue da ubqe jhgf lpfdm ub, gegru ub, fyr vfnz B oiq.
+--------------------------------------------------
+Key: CRYPTIC
+Decrypted: Jl uukf aut xxt bcweq rxwokd kkk hkt cs hxlk hc ah rgo hdy. S wvsc vj rfeq flce qdrbo ha, tgepc ha, lmo rxxy F run.
+--------------------------------------------------
+Key: GHOST
+Decrypted: Rb ndkv izu plc mizom dyserz dgp iqd wh pzwn dz hm rid byq. U ztcf le dinz naow wqyfp zv, bdjyz xr, lgd ykpm K oyr.
+--------------------------------------------------
+Key: PHOENIX
+Decrypted: Ob nohf mfw raq bpjhl hiwjsg evh hxu zz eilx pz he cgj pgu. I fvkx kd hyeo gbsp bdswu xk, qgrcz xk, omj emrb Y rtb.
+--------------------------------------------------
+Key: SECRET
+Decrypted: Ny iqdp eqn oat lawec byyohq chd aho wy eubi tx ui toa aqm. H poca cp hfpn flww rfruj vr, ztxmw wk, icg wkjd V vxu.
+--------------------------------------------------
+Key: ZOMBIE
+Decrypted: Ua sabj kzd msz qjlwa hoauln oam xlg po njre zh hs pgg ezc. L mxij zt zavx ohup xpicf nx, bwfkp gu, suy pprg D rqy.
+--------------------------------------------------
+============================================================
+Keyed Alphabet generated from: PHOENIX
+Alphabet: PHOENIXABCDFGJKLMQRSTUVWYZ
+============================================================
+Key: ABANDON
+Decrypted: Fh dhmt cty lfp yfgtw aqazks ymm fqy nt jqwq en gj vez esm. Q oxab an aisu shpb jmbak rs, pepqn rs, adz ivlg I rwz.
+--------------------------------------------------
+Key: CRYPTIC
+Decrypted: Cq sixq nrk ylm uxddx fantgc atx bgv te qatg ht uq gpt hcz. U reox wj fumm qqcg ejein hw, mpult hw, wat egym U lrw.
+--------------------------------------------------
+Key: GHOST
+Decrypted: Xb lgxd gzj oec yvzme cblqtz gpk gsg rl mzxh yf qy gso bbe. C fxru ed cvhj zakr fqduo jv, bgdgf wn, wpo dfon K rbg.
+--------------------------------------------------
+Key: PHOENIX
+Decrypted: Rb lovq ahi tgx ucsho bwnwup eqv bli fz kwtl df qk opw dpu. R beil kc bfms pbic sjxku wt, xpyyf wt, jaw getj F lux.
+--------------------------------------------------
+Key: SECRET
+Decrypted: Zx bjwo tyw ngm agddh qbxtey fhw neo rb krar ms mb koc qyk. E ckrg xs buov qqnr nlevs in, avgur xt, btp rfsa W qaj.
+--------------------------------------------------
+Key: ZOMBIE
+Decrypted: Sa hwus kzm kda hjetz boajjv ouy wjp co lfqm aj qh ypp fza. J aigj ze xgvw dhoc ymvxq vy, blvsc pu, hny citp A lya.
+--------------------------------------------------
+============================================================
+Keyed Alphabet generated from: SECRET
+Alphabet: SECRTABDFGHIJKLMNOPQUVWXYZ
+============================================================
+Key: ABANDON
+Decrypted: Yw lvit wao nys eyvii priimt bli vtb ra rrft cr vr nui cto. T cmpg fr pdrg kwsq mjqfm ub, susqr ub, jpi thnz D kup.
+--------------------------------------------------
+Key: CRYPTIC
+Decrypted: Ez vqlh hfu xwr djylp nbozpd kjl epg bj eblp ab ce qsz ady. C avbj ih nhgx nzdo ppdip et, rslwb et, myz dkxx H qfv.
+--------------------------------------------------
+Key: GHOST
+Decrypted: Up cilj cqx oax elwfb ohyphq isg cri ae gqzn yz gq qco nhp. I zmfh ay olnn fiaa kqpko nj, nijmz fw, mso pnob T khq.
+--------------------------------------------------
+Key: PHOENIX
+Decrypted: Ip chch mpk tko dofdz duotcs urc exq zq pulx mz gp dst msa. Q qviw to dygc splf bpjvi fv, osqbz fv, ryt obtl Y qka.
+--------------------------------------------------
+Key: SECRET
+Decrypted: Re ofoo jgv pkr pkylm thezog dto hoh ah pfwq rg zo uhx dgu. O fcfk ja dhuy nzta wcdhu vw, bgkxa zv, obs anuk I rbx.
+--------------------------------------------------
+Key: ZOMBIE
+Decrypted: Ti tadu kqf mrb qxiia diijlz hae xls fi cvqg bh gt oss fqd. L yagx zc xkvf rwuf xjudh yx, nwhkf sa, trn fots F qgy.
+--------------------------------------------------
+============================================================
+Keyed Alphabet generated from: ZOMBIE
+Alphabet: ZOMBIEACDFGHJKLNPQRSTUVWXY
+============================================================
+Key: ABANDON
+Decrypted: Ji hndu weu pyz nykxf tbapnd xed hax ce mbya mc km pbp mdq. A mmtd hb tath gizu nqucs td, zbzsc td, ffp ijpk A svr.
+--------------------------------------------------
+Key: CRYPTIC
+Decrypted: Hn rlvr eia wxl jcjfp sqbxls eiv dlw rj oqvl or to izx osx. E pymc vg stqs fnct blbai oc, lzdrr oc, wax bwwj T piq.
+--------------------------------------------------
+Key: GHOST
+Decrypted: Dv phvj oge miw nuyqi drkugg hza oth po agco xy rx itt crb. H ympt ix duop eakp kcftm pj, chuny yi, wzt fvmr B sri.
+--------------------------------------------------
+Key: PHOENIX
+Decrypted: Mv pyor luk ufs jpbpl ivbcez bno dwl yg jvvw ry rj fzc rzv. P uyhx bd iyqm zvee dljwh yr, szqfy yr, mac tiuw Y pkd.
+--------------------------------------------------
+Key: SECRET
+Decrypted: Ym gjhm saq ifl wfjfg nrmxba goh eby pr jidp lq lg ayh nap. B efpf cq itmu fnop ikbuq ai, bwwtp cr, grz pvqu V nqe.
+--------------------------------------------------
+Key: ZOMBIE
+Decrypted: Ra nojq jgv sgb pkqxh ihabrc ytn grz eh pfwq bg rn uzz dgu. R axfk ja efuy lime wqdgr uw, cmjue zv, nco enuz H pax.
+--------------------------------------------------
