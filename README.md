@@ -15,7 +15,7 @@ This script attempts to decrypt a ciphertext using a **keyed Vigenère cipher**,
 Given:
 
 ```plaintext
-Ciphertext: Rc qipv jhx vld plson fhceuh itp jui gh qhzu dg sq xie dhw. U gbfl lf fluz pcag wrgkv zw, dinyg zw, qge gnvm L thx.
+Ciphertext: Rc qipv jhx vld plson fhceuh itp jui gh qhzu dg sq xie dhw. U gbfl lf fluz pcag wrgkv zw, dinyg zw, qge gnvm L thx.```
 
 The script will try all permutations of custom alphabets and Vigenère keys from key.txt.
 
