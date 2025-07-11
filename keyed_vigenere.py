@@ -1,3 +1,5 @@
+import time
+
 def create_keyed_alphabet(keyword, base_alphabet):
     seen = set()
     keyed = []
@@ -17,13 +19,12 @@ def create_keyed_alphabet(keyword, base_alphabet):
 def vigenere_decrypt_custom(ciphertext, key, keyed_alphabet):
     plaintext = ''
     key_index = 0
-    key = key.upper()
-    keyed_alphabet = keyed_alphabet.upper()
 
     for char in ciphertext:
-        if char.upper() in keyed_alphabet:
+        char_upper = char.upper()
+        if char_upper in keyed_alphabet:
             is_upper = char.isupper()
-            char_index = keyed_alphabet.index(char.upper())
+            char_index = keyed_alphabet.index(char_upper)
             key_char = key[key_index % len(key)]
             shift = keyed_alphabet.index(key_char)
             decrypted_index = (char_index - shift + len(keyed_alphabet)) % len(keyed_alphabet)
@@ -37,13 +38,13 @@ def vigenere_decrypt_custom(ciphertext, key, keyed_alphabet):
 
 
 def try_keys_against_each_alphabet(ciphertext):
-    key_file = 'test.txt'
-    output_file = 'test_output.txt'
+    key_file = 'key.txt'
+    output_file = 'decrypt_output.txt'
     base_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     try:
         with open(key_file, 'r') as f:
-            lines = sorted(set(line.strip().upper() for line in f if line.strip()))
+            lines = sorted(set(line.strip() for line in f if line.strip()))
     except FileNotFoundError:
         print(f"Error: '{key_file}' not found.")
         return
@@ -51,10 +52,9 @@ def try_keys_against_each_alphabet(ciphertext):
     with open(output_file, 'w', encoding='utf-8') as out:
         for alphabet_keyword in lines:
             keyed_alphabet = create_keyed_alphabet(alphabet_keyword, base_alphabet)
-            out.write(f"{'='*60}\n")
-            out.write(f"Keyed Alphabet generated from: {alphabet_keyword}\n")
-            out.write(f"Alphabet: {keyed_alphabet}\n")
-            out.write(f"{'='*60}\n")
+            out.write(f"{'='*50}\n")
+            out.write(f"{alphabet_keyword} | {keyed_alphabet}\n")
+            out.write(f"{'='*50}\n")
 
             for key in lines:
                 if not all(c in keyed_alphabet for c in key):
@@ -62,15 +62,20 @@ def try_keys_against_each_alphabet(ciphertext):
 
                 decrypted = vigenere_decrypt_custom(ciphertext, key, keyed_alphabet)
 
-                out.write(f"Key: {key}\n")
-                out.write(f"Decrypted: {decrypted}\n")
-                out.write('-' * 50 + '\n')
+                out.write(f"{key} | {decrypted}\n\n")
 
     print(f"Decryption results written to '{output_file}'")
 
+
+start = time.time()
 
 # Ciphertext to decrypt
 ciphertext = "Rc qipv jhx vld plson fhceuh itp jui gh qhzu dg sq xie dhw. U gbfl lf fluz pcag wrgkv zw, dinyg zw, qge gnvm L thx."
 
 # Run decryption attempts
 try_keys_against_each_alphabet(ciphertext)
+
+# 
+end = time.time()
+elapsed = end - start
+print(f"Decryption complete in {elapsed:.2f} seconds ({elapsed/60:.2f} minutes)")
