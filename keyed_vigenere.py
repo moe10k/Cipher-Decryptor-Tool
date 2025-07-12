@@ -70,7 +70,12 @@ def try_keys_against_each_alphabet(ciphertext):
 start = time.time()
 
 # Ciphertext to decrypt
-ciphertext = '../ciphertext.txt'
+try:
+    with open('../ciphertext.txt', 'r', encoding='utf-8') as f:
+        ciphertext = f.read()
+except FileNotFoundError:
+    print("Error: '../ciphertext.txt' not found.")
+    exit()
 
 # Run decryption attempts
 try_keys_against_each_alphabet(ciphertext)
