@@ -38,8 +38,8 @@ def vigenere_decrypt_custom(ciphertext, key, keyed_alphabet):
 
 
 def try_keys_against_each_alphabet(ciphertext):
-    key_file = '../key.txt'
-    output_file = 'decrypt_output.txt'
+    key_file = '../keywords.txt'
+    output_file = 'decrypted_output.txt'
     base_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     try:

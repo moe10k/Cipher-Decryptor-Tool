@@ -1,5 +1,5 @@
-**/decrypt_output.txt
-**/ranked_output.txt
+**/decrypted_output.txt
 **/sorted_output.txt
-words.txt
-key.txt
+keywords.txt
+dictionary.txt
+namechange.py

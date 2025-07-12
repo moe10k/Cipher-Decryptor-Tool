@@ -34,8 +34,8 @@ def autokey_decrypt(ciphertext, keyword, keyed_alphabet):
     return plaintext
 
 def try_autokey_with_keyed_alphabets(ciphertext):
-    key_file = '../key.txt'
-    output_file = 'decrypt_output.txt'
+    key_file = '../keywords.txt'
+    output_file = 'decrypted_output.txt'
     base_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     try:
