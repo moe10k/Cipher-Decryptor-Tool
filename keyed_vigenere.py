@@ -38,7 +38,7 @@ def vigenere_decrypt_custom(ciphertext, key, keyed_alphabet):
 
 
 def try_keys_against_each_alphabet(ciphertext):
-    key_file = 'key.txt'
+    key_file = '../key.txt'
     output_file = 'decrypt_output.txt'
     base_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -62,7 +62,7 @@ def try_keys_against_each_alphabet(ciphertext):
 
                 decrypted = vigenere_decrypt_custom(ciphertext, key, keyed_alphabet)
 
-                out.write(f"{key} | {decrypted}\n\n")
+                out.write(f"{key} | {decrypted}\n")
 
     print(f"Decryption results written to '{output_file}'")
 
@@ -70,12 +70,11 @@ def try_keys_against_each_alphabet(ciphertext):
 start = time.time()
 
 # Ciphertext to decrypt
-ciphertext = "Rc qipv jhx vld plson fhceuh itp jui gh qhzu dg sq xie dhw. U gbfl lf fluz pcag wrgkv zw, dinyg zw, qge gnvm L thx."
+ciphertext = '../ciphertext.txt'
 
 # Run decryption attempts
 try_keys_against_each_alphabet(ciphertext)
 
-# 
 end = time.time()
 elapsed = end - start
 print(f"Decryption complete in {elapsed:.2f} seconds ({elapsed/60:.2f} minutes)")
