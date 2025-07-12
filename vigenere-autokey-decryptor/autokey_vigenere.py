@@ -23,8 +23,8 @@ def autokey_vigenere_decrypt(ciphertext, keyword):
     return plaintext
 
 def try_autokey_keys(ciphertext):
-    key_file = '../key.txt'
-    output_file = 'decrypt_output.txt'
+    key_file = '../keywords.txt'
+    output_file = 'decrypted_output.txt'
 
     try:
         with open(key_file, 'r') as f:
@@ -48,7 +48,13 @@ def try_autokey_keys(ciphertext):
 # --- Run ---
 start = time.time()
 
-ciphertext = '../ciphertext.txt'
+try:
+    with open('../ciphertext.txt', 'r', encoding='utf-8') as f:
+        ciphertext = f.read()
+except FileNotFoundError:
+    print("Error: '../ciphertext.txt' not found.")
+    exit()
+
 try_autokey_keys(ciphertext)
 
 end = time.time()

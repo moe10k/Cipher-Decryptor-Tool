@@ -55,8 +55,8 @@ def progressive_keyed_vigenere_decrypt(ciphertext, base_key, keyed_alphabet):
     return plaintext
 
 def try_keys_with_progressive_keyed_alphabet(ciphertext):
-    key_file = '../key.txt'
-    output_file = 'decrypt_output.txt'
+    key_file = '../keywords.txt'
+    output_file = 'decrypted_output.txt'
     base_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     try:

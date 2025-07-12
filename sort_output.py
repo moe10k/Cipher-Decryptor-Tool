@@ -8,7 +8,7 @@ DetectorFactory.seed = 0
 start = time.time()
 
 # Load common English words
-with open('words.txt') as f:
+with open('dictionary.txt') as f:
     COMMON_WORDS = set(word.strip().lower() for word in f if word.strip())
 
 def word_ratio(text):
@@ -54,7 +54,7 @@ def rank_legible_lines(input_path, output_path, top_n=100000):
 # Main flow
 if __name__ == "__main__":
     folder = input("Enter folder name: ").strip()
-    input_file = os.path.join(folder, 'decrypt_output.txt')
+    input_file = os.path.join(folder, 'decrypted_output.txt')
     output_file = os.path.join(folder, 'sorted_output.txt')
 
     if not os.path.exists(input_file):

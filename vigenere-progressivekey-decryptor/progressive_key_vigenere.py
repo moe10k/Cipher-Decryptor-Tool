@@ -36,8 +36,8 @@ def progressive_vigenere_decrypt(ciphertext, base_key):
     return plaintext
 
 def try_keys_from_file(ciphertext):
-    key_file = '../key.txt'
-    output_file = 'decrypt_output.txt'
+    key_file = '../keywords.txt'
+    output_file = 'decrypted_output.txt'
 
     try:
         with open(key_file, 'r') as f:
@@ -51,7 +51,7 @@ def try_keys_from_file(ciphertext):
             decrypted = progressive_vigenere_decrypt(ciphertext, key)
             out.write(f"{key} | {decrypted}\n")
 
-    print(f"Progressive Vigenère decryption results written to '{output_file}'")
+    print(f"Progressive Vigenere decryption results written to '{output_file}'")
 
 # Read ciphertext from file
 ciphertext_file = '../ciphertext.txt'

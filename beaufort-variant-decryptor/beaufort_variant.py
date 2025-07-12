@@ -22,8 +22,8 @@ def variant_beaufort_decrypt(ciphertext, key):
     return plaintext
 
 def try_keys_from_file(ciphertext):
-    key_file = '../key.txt'
-    output_file = 'decrypt_output.txt'
+    key_file = '../keydictionary.txt'
+    output_file = 'decrypted_output.txt'
 
     try:
         with open(key_file, 'r') as f:
@@ -42,5 +42,5 @@ def try_keys_from_file(ciphertext):
 # Hardcoded ciphertext
 ciphertext = '../ciphertext.txt'
 
-# Try all keys from key.txt and write to file
+# Try all keys from keydictionary.txt and write to file
 try_keys_from_file(ciphertext)
