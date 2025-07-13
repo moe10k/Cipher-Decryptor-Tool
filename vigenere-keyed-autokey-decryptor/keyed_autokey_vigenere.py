@@ -65,7 +65,12 @@ def try_autokey_with_keyed_alphabets(ciphertext):
 
 start = time.time()
 
-ciphertext = '../ciphertext.txt'
+try:
+    with open('../ciphertext.txt', 'r', encoding='utf-8') as f:
+        ciphertext = f.read()
+except FileNotFoundError:
+    print("Error: '../ciphertext.txt' not found.")
+    exit()
 
 try_autokey_with_keyed_alphabets(ciphertext)
 
