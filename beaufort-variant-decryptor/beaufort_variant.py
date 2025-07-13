@@ -22,7 +22,7 @@ def variant_beaufort_decrypt(ciphertext, key):
     return plaintext
 
 def try_keys_from_file(ciphertext):
-    key_file = '../keydictionary.txt'
+    key_file = '../keywords.txt'
     output_file = 'decrypted_output.txt'
 
     try:
@@ -40,7 +40,12 @@ def try_keys_from_file(ciphertext):
     print(f"Variant Beaufort decryption results written to '{output_file}'")
 
 # Hardcoded ciphertext
-ciphertext = '../ciphertext.txt'
+try:
+    with open('../ciphertext.txt', 'r', encoding='utf-8') as f:
+        ciphertext = f.read()
+except FileNotFoundError:
+    print("Error: '../ciphertext.txt' not found.")
+    exit()
 
 # Try all keys from keydictionary.txt and write to file
 try_keys_from_file(ciphertext)
